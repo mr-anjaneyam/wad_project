@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+}
+
+/* Ticket Information Section */
+.ticket-info {
+    margin-bottom: 20px;
+}
+
+/* Status Section */
+.status-section {
+    margin-bottom: 20px;
+}
+
+.status-label {
+    font-weight: bold;
+}
+
+.status-open {
+    color: green;
+}
+
+.status-in-progress {
+    color: orange;
+}
+
+.status-closed {
+    color: red;
+}
+
+/* Developer Assigned Section */
+.developer-section {
+    margin-bottom: 20px;
+}
+
+/* Attachments Section */
+.attachments-section {
+    margin-bottom: 20px;
+}
+
+/* Comments Section */
+.comments-section {
+    margin-bottom: 20px;
+}
+
+.comment {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* Activity History Section */
+.history-section {
+    margin-bottom: 20px;
+}
+
+.history-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* Options Section */
+.options-section {
+    margin-bottom: 20px;
+}
+
+.buttons-section{
+    display: flex;
+    gap: 10px;
+    padding-bottom: 20px;
+}
+
+/* Related Tickets Section */
+/* .related-tickets-section {
+    margin-bottom: 20px;
+} */
+
+/* User Information Section */
+.user-info-section {
+    margin-bottom: 20px;
+}
+
+/* Back to Ticket List Button */
+.back-button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.back-button:hover {
+    background-color: #45a049;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
